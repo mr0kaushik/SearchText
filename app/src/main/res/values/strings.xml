@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SearchText</string>
+    <string name="enter_text_to_search">Enter Text to Search</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="error_text">*Please enter text to proceed search</string>
+
+    <string name="description">
+        This app is implemented by using Google Mobile vision API to detect text, aim of this app is to provide easy search on NewsPaper, Magazine, Books, Screen etc.
+        from which text can be easily readable by using device camera.
+
+        \n\n*Many Thanks to the person who told me to build this app and also
+        thanks to the FlatIcon to provide me free icons. I respect their work.
+
+    </string>
+
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="search_text_caps">SEARCH TEXT</string>
+    <string name="version">Version</string>
+    <string name="version_str">1.0.0</string>
+</resources>

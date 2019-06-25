@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+    <ScrollView
+        android:layout_below="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/brand_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/brand_logo_256px" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorDivider"/>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_below="@id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:padding="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/version"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorSecondaryText"/>
+                    <TextView
+                        android:padding="8dp"
+                        android:text="@string/version_str"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorDivider"/>
+
+                <TextView
+                    android:padding="8dp"
+                    android:id="@+id/description"
+                    android:textSize="14sp"
+                    android:layout_below="@id/brand_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:padding="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorDivider"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Connect"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorDivider"/>
+
+                <LinearLayout
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:padding="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Developer"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorSecondaryText"/>
+                    <TextView
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="Deepak Kaushik"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Have a question or want to collab ?"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorSecondaryText"/>
+
+                <LinearLayout
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:padding="8dp"
+                        android:src="@drawable/ic_github"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:padding="8dp"
+                        android:text="https://github.com/mr0kaushik"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:padding="8dp"
+                        android:src="@drawable/ic_linkedin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:padding="8dp"
+                        android:text="https://www.linkedin.com/in/mr0kaushik"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:padding="4dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:padding="8dp"
+                        android:src="@drawable/ic_gmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:padding="8dp"
+                        android:text="kaushikd875@gmail.com"
+                        android:autoLink="email"
+                        android:linksClickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
