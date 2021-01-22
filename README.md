@@ -13,8 +13,8 @@ Android Application to search text on a page or screen using Google Mobile Visio
 3. Get the green rectangular shape around the location of text on the screen.
 
 # Screenshots
-| Edit Text       | Selection View  |
-|-----------------|-----------------|
-|<img width="200px" height="400px" src="https://github.com/mr0kaushik/SearchText/blob/master/screenshots/editText.jpg"/>|<img width="200px" height="400px" src="https://github.com/mr0kaushik/SearchText/blob/master/screenshots/faceCamera.jpg"/>|
+| Edit Text       | Selection View  | Help    |
+|-----------------|-----------------|---------|
+|<img width="240px" height="480px" alt="Edit-Text" src="./screenshots/editText.jpg"/>|<img width="240px" height="480px" alt="Camera-view" src="./screenshots/faceCamera.jpg"/>|<img width="240px" height="480px" alt="Help" src="./screenshots/help.jpg"/>|
 
 
