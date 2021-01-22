@@ -5,7 +5,7 @@ Android Application to search text on a page or screen using Google Mobile Visio
 
 ![MadeWith-Android-Java-Mobile-Vision-API](https://img.shields.io/static/v1?label=Made%20With&message=Android%20|%20Java%20|%20Mobile%20Vision%20API&color=blue)
 
-### Download App : <a href="https://drive.google.com/open?id=1odXcxZscBTuhF4NgaaC2w2yP0Wx0B8r1">Click Here</a>
+### Wanna try ? [Get apk](https://drive.google.com/file/d/1toy9856Kcv_EUr5G3ydSMvAS8qaPqGPD/view?usp=sharing)
 
 ## Working
 1. Enter text in the text field.
