@@ -3,7 +3,7 @@
 # SearchText
 Android Application to search text on a page or screen using Google Mobile Vision API.
 
-![MadeWith-Flutter-Dart](https://img.shields.io/static/v1?label=Made%20With&message=Flutter%20|%20Dart%20|%20Tensorflow%20Lite%20|%20Keras&color=blue)
+![MadeWith-Android-Java-Mobile-Vision-API](https://img.shields.io/static/v1?label=Made%20With&message=Android%20|%20Java%20|%20Mobile%20Vision%20API&color=blue)
 
 ### Download App : <a href="https://drive.google.com/open?id=1odXcxZscBTuhF4NgaaC2w2yP0Wx0B8r1">Click Here</a>
 
